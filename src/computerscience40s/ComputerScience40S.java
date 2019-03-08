@@ -15,6 +15,8 @@ public class ComputerScience40S {
         
         RecursionTest unit1 = new RecursionTest();
         
+        System.out.println("test!!!!");
+        
         System.out.println("CS40S complete!");
     }
 
