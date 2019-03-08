@@ -19,7 +19,7 @@ public class Calculator {
     
     public static long power(int base, int exponent) {
         if (exponent == 0) return 1;    // base
-        if (exponent == 1) return base; // base       
+        if (exponent == 1) return base; // base
         if (exponent < 0) {
             return 1 / power(base, exponent * -1);
         }
